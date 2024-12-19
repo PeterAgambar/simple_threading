@@ -4,4 +4,7 @@ This is a common thread that keeps appearing when discussing threading with deve
 
 Therefore, this is based on a very simple console app with a while(true) loop that only ends once all tasks have completed.
 
+These very simple examples do not yet explore the use of Parallelism nor disposal of objects. 
+If you want to know the difference between using Cancellation tokens, and values to exit loops, then run the MixedSimpleThread.  Task A should cancel at 100
+
 ![threading](https://github.com/user-attachments/assets/34d34f63-9305-47d3-94b3-b097bee61f91)
